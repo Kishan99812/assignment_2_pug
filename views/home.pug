@@ -14,6 +14,7 @@ html(lang='en')
     include ./header.pug
 
     //Carousel Part
+    //Carousel Part
     #carouselExampleDark.carousel.carousel-dark.slide(data-bs-ride='carousel')
       .carousel-indicators
         button.active(type='button', data-bs-target='#carouselExampleDark', data-bs-slide-to='0', aria-current='true', aria-label='Slide 1')
@@ -21,20 +22,26 @@ html(lang='en')
         button(type='button', data-bs-target='#carouselExampleDark', data-bs-slide-to='2', aria-label='Slide 3')
       .carousel-inner
         .carousel-item.active(data-bs-interval='10000')
-          img.d-block.w-100(src='./static/img1.jpg', alt='...')
-          .carousel-caption.d-none.d-md-block
-            h5 First slide label
-            p Welcome to Neosoft latest page.!!!
-        .carousel-item(data-bs-interval='2000')
-          img.d-block.w-100(src='./static/img2.jpg', alt='...')
-          .carousel-caption.d-none.d-md-block
-            h5 Second slide label
-            p Welcome to Neosoft latest page.!!!
-        .carousel-item
           img.d-block.w-100(src='./static/img3.jpg', alt='...')
           .carousel-caption.d-none.d-md-block
+            h5 First slide label
+            h2 The World
+            h2 Of Extreme Sports
+            h4 SAVE 20% ON ALL APPAREL
+        .carousel-item(data-bs-interval='2000')
+          img.d-block.w-100(src='./static/img1.jpg', alt='...')
+          .carousel-caption.d-none.d-md-block
+            h5 Second slide label
+            h2 The World
+            h2 Of Extreme Sports
+            h4 SAVE 20% ON ALL APPAREL
+        .carousel-item
+          img.d-block.w-100(src='./static/img2.jpg', alt='...')
+          .carousel-caption.d-none.d-md-block
             h5 Third slide label
-            p Welcome to Neosoft latest page.!!!
+            h2 The World
+            h2 Of Extreme Sports
+            h4 SAVE 20% ON ALL APPAREL
       button.carousel-control-prev(type='button', data-bs-target='#carouselExampleDark', data-bs-slide='prev')
         span.carousel-control-prev-icon(aria-hidden='true')
         span.visually-hidden Previous

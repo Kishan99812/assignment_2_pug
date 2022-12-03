@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 //Setting port
-const PORT = 1030;
+const PORT = 3000;
 //requiring fs
 const fs = require('fs');
 
